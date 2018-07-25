@@ -5,7 +5,6 @@ class Bowling
 		@sum = 0
 		first_roll = 0
 		second_roll = 1
-		#binding.pry;
 		while second_roll < rolls.length 
 			roll_sum = rolls[first_roll] + rolls[second_roll]
 			if rolls[first_roll] == 10
